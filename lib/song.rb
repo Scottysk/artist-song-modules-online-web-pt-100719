@@ -3,7 +3,7 @@ require 'pry'
 class Song
   extend Memorable
   include Memorable
-  include Findable
+  extend Findable
   include Paramable
 
   
